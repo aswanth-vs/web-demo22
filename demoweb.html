@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Guide - Demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="container-fluid" style="background-image: url(/pexels-oleksandr-pidvalnyi-3278215.jpg); height: 700px; background-attachment: fixed; background-size: 100%; background-repeat: no-repeat;">
+    <div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <!-- Gap of 8 columns will only appear when the page is opened in a large or bigger screen -->
+          <div class="col-lg-7 ms-3"> 
+            <a href="#">
+              <img src="https://w7.pngwing.com/pngs/983/142/png-transparent-let-s-go-travel-the-world-poster-travel-t-shirt-bag-icon-global-travel-art-word-english-text-leather.png" alt="" class="img-fluid" style="height: 100px;">
+            </a>
+          </div>
+          <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <!-- Dropdown -->
+              <li class="nav-item dropdown">
+                <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Packages
+                </button>
+                 <ul class="dropdown-menu dropdown-menu-dark">
+                  <h6 class="text ms-2 mt-1"><em>Occation</em></h6>
+                   <li><a class="dropdown-item" href="#">With Friends</a></li>
+                   <li><a class="dropdown-item" href="#">Family Getway</a></li>
+                   <li><a class="dropdown-item" href="#">Honeymoon</a></li>
+                  <h6 class="text ms-2 mt-2"><em>Price</em></h6>
+                  <li><a class="dropdown-item" href="#">Less than 20000</a></li>
+                  <li><a class="dropdown-item" href="#">20k-100k</a></li>
+                  <li><a class="dropdown-item" href="#">100k and above</a></li>
+                  <h6 class="text ms-2 mt-2"><em>Other</em></h6>
+                  <li><a class="dropdown-item" href="#">Custom Package</a></li>
+                 </ul>
+              </li>
+              <!-- Dropdown end -->
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Locations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <div class="container-fluid row" style="margin-top: 200px;">
+      <div class="col-6">
+      </div>
+      <div class="col text-center">
+        <h1 class="text">Travel <br>the <br><em>World</em></h1>
+      </div>
+    </div>
+
+    <div class="row" style="height: 220px;">
+      <div class="col-4"></div>
+      <div class="col-4 text-center" style="margin-top: 100px;">
+        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop" style="font-size: 1.75rem;">Get Started</button><br>
+
+        <!-- Modal -->
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5 w-100" id="staticBackdropLabel">Submit details</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <!-- Booking Form  -->
+                <form action="">
+
+                </form>
+                <!-- Booking Form End -->
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Understood</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <button type="button" class="btn btn-warning mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Know More</button>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5 w-100" id="exampleModalLabel">Attention</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                This button will redirect you to the Blog page in the future. 
+              </div>
+              <div class="modal-footer justify-content-center">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Understood</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-4"></div>
+    </div>
+  </header>
+
+  <div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, et pariatur illum culpa dolorum rerum eius fugiat accusantium nobis non sit, at fuga optio ullam quos nemo blanditiis officiis reprehenderit.
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui nostrum sint, delectus quasi sapiente omnis ducimus, praesentium maxime perferendis aliquid nemo ab repellat, et laudantium amet expedita maiores. Est, suscipit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime saepe, reiciendis voluptas nihil, sunt aliquid explicabo, quidem voluptates reprehenderit culpa eveniet similique. Est voluptate velit consequuntur harum assumenda asperiores?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, et pariatur illum culpa dolorum rerum eius fugiat accusantium nobis non sit, at fuga optio ullam quos nemo blanditiis officiis reprehenderit.
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui nostrum sint, delectus quasi sapiente omnis ducimus, praesentium maxime perferendis aliquid nemo ab repellat, et laudantium amet expedita maiores. Est, suscipit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime saepe, reiciendis voluptas nihil, sunt aliquid explicabo, quidem voluptates reprehenderit culpa eveniet similique. Est voluptate velit consequuntur harum assumenda asperiores?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, et pariatur illum culpa dolorum rerum eius fugiat accusantium nobis non sit, at fuga optio ullam quos nemo blanditiis officiis reprehenderit.
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui nostrum sint, delectus quasi sapiente omnis ducimus, praesentium maxime perferendis aliquid nemo ab repellat, et laudantium amet expedita maiores. Est, suscipit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime saepe, reiciendis voluptas nihil, sunt aliquid explicabo, quidem voluptates reprehenderit culpa eveniet similique. Est voluptate velit consequuntur harum assumenda asperiores?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, et pariatur illum culpa dolorum rerum eius fugiat accusantium nobis non sit, at fuga optio ullam quos nemo blanditiis officiis reprehenderit.
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui nostrum sint, delectus quasi sapiente omnis ducimus, praesentium maxime perferendis aliquid nemo ab repellat, et laudantium amet expedita maiores. Est, suscipit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia maxime saepe, reiciendis voluptas nihil, sunt aliquid explicabo, quidem voluptates reprehenderit culpa eveniet similique. Est voluptate velit consequuntur harum assumenda asperiores?
+    </p>
+  </div>
+
+  <footer>
+    
+  </footer>
+</body>
+</html>
